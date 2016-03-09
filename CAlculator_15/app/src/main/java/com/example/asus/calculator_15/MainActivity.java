@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
             string1 = "";
         }
 
-        //textView2.setText(textView2.getText().toString() + string);
-        textView2.setText(arrayList.toString());
+        textView2.setText(textView2.getText().toString() + string);
+        //textView2.setText(arrayList.toString());
 
     }
 
